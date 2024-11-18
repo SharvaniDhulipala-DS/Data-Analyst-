@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analyst Career Path</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300;500;700&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: linear-gradient(to right, #f9f9f9, #e8efff);
+            scroll-behavior: smooth;
+        }
+
+        h1, h2 {
+            font-family: 'Pacifico', cursive;
+            color: #ff5722;
+        }
+
+        h3 {
+            font-family: 'Oswald', sans-serif;
+            color: #0073e6;
+        }
+
+        p {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: #0073e6;
+            color: black;
+            display: flex;
+            justify-content: center;
+            padding: 15px 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 20px;
+            font-weight: bold;
+            font-family: 'Oswald', sans-serif;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffcc00;
+        }
+
+        header {
+            background-size:cover;
+            height: 200 px;
+            color: blue;
+            text-align:center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        header h1 {
+            font-size: 60px;
+            margin: 0;
+            text-shadow: 2px 2px 4px #000000;
+			margin-top: 20px;
+			padding-top: 20px;
+        }
+
+        header p {
+            font-size: 20px;
+			font-style:Cursive;
+            margin-top: 10px;
+        }
+
+        section {
+            padding: 60px 15px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .section-title {
+            font-size: 30px;
+            margin-bottom: 30px;
+            color: #ff5722;
+            text-align:center;
+        }
+
+        .skills, .certifications, .career-path, .companies {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .card {
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 170px;
+            margin: 13px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .card img {
+            width: 90%;
+            height: 140px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 9px 0;
+            font-size: 20px;
+        }
+
+        .card p {
+            padding: 0 15px 10px;
+        }
+
+        footer {
+            background: #333;
+            color: black;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+			text-align: center;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .scroll-top {
+            position: fixed;
+            bottom: 18px;
+            right: 18px;
+            background: #0073e6;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: none;
+            font-size: 18px;
+        }
+
+        .scroll-top:hover {
+            background: #005bb5;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#career-path">Career Path</a>
+        <a href="#companies">Companies</a>
+    </nav>
+
+    <header id="home">
+        <h1>Data Analyst Career Path</h1>
+        <p>Your ultimate guide to becoming a successful Data Analyst</p>
+    </header>
+
+    <section id="skills">
+        <h2 class="section-title">Skills Needed</h2>
+        <div class="skills">
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/128/9543/9543826.png" alt="SQL">
+                <h3>SQL</h3>
+                <p>Learn database management and querying techniques.</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/128/3098/3098090.png" alt="Python">
+                <h3>Python</h3>
+                <p>Use Python libraries for data analysis and visualization.</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/128/906/906310.png" alt="Excel">
+                <h3>Excel</h3>
+                <p>Advanced Excel functions for data manipulation.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <h2 class="section-title">Recommended Certifications</h2>
+        <div class="certifications">
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/128/281/281764.png" alt="Google Certificate">
+                <h3>Google Data Analytics</h3>
+                <p>A foundational course for aspiring Data Analysts.</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/128/732/732221.png" alt="Microsoft Certificate">
+                <h3>Microsoft Data Analyst</h3>
+                <p>Power BI and analysis tools expertise validation.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="career-path">
+        <h2 class="section-title">Career Path</h2>
+        <div class="career-path">
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/128/5726/5726778.png" alt="Junior Data Analyst">
+                <h3>Junior Data Analyst</h3>
+                <p>Start your journey with entry-level data tasks.</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/128/2339/2339976.png" alt="Senior Data Analyst">
+                <h3>Senior Data Analyst</h3>
+                <p>Lead projects and mentor junior analysts.</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/128/2310/2310287.png" alt="Data Scientist">
+                <h3>Data Scientist</h3>
+                <p>Advance to predictive modeling and data engineering.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="companies">
+        <h2 class="section-title">Companies Hiring Data Analysts</h2>
+        <div class="companies">
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/128/5969/5969038.png" alt="IBM">
+                <h3>IBM</h3>
+                <p>Innovate with data at one of the world's leading companies.</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/128/14079/14079391.png" alt="Amazon">
+                <h3>Amazon</h3>
+                <p>Optimize e-commerce experiences through analytics.</p>
+            </div>
+            <div class="card">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.PsmBePOmI4AFqazhDFsmZQHaEK&pid=Api&P=0&h=180" alt="JPMorgan Chase">
+                <h3>JPMorgan Chase</h3>
+                <p>Transform financial services with advanced analytics.</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/128/825/825537.png" alt="Walmart">
+                <h3>Walmart</h3>
+                <p>Enhance retail strategies using data insights.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Data Analyst Career Path | <a href="#home">Back to Top</a></p>
+    </footer>
+
+    <button class="scroll-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">↑</button>
+
+    <script>
+        const scrollTopBtn = document.querySelector('.scroll-top');
+        window.onscroll = function() {
+            if (window.page
